@@ -10,7 +10,7 @@ The following commands provide the basic dev flow to work with a docker conatine
 1) Create the Dockerfile in the root of your application
 2) Run the below commands to build the images
 ```bash
-docker build -t basicwebservice
+docker build -t basicwebservice .
 docker images (to verify that your image is build)
 ```
 
