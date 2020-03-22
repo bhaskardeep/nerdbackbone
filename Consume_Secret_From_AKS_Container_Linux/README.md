@@ -1,7 +1,7 @@
 ----
 This project is showing a how a Kubernetes cluster can read secrets and certificates from a Azure Key Vault store. It performs that using two methodologies:
 
-1) Using stored Service Princial <br/>
+1) Using user-assigned MSI  <br/>
 2) Using MSI based pod identity
 
 The following commands provide the basic dev flow to work with a docker conatiner through kubernates:
